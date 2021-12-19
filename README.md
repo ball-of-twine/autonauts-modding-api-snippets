@@ -48,6 +48,8 @@ ModTool.CreateTool(
 
 ## <b>Release Notes:</b>
 
-### 0.0.1
+### 0.0.2
+Added icon
 
+### 0.0.1
 Initial release of Autonauts Modding API Snippents

@@ -48,6 +48,9 @@ ModTool.CreateTool(
 
 ## <b>Release Notes:</b>
 
+### 0.0.3
+Fixed repo url
+
 ### 0.0.2
 Added icon
 

@@ -3,7 +3,7 @@
         "body": [
             "ModBase.ClassAndMethodExist(",
             "\t${1:ClassName},  --string",
-            "\t${2:MethodName}, --string",
+            "\t${2:MethodName}  --string",
             ")${0}"
         ],
         "description": [
@@ -25,7 +25,7 @@
     "ModBase.DisableSafety": {
         "body": [
             "ModBase.DisableSafety(",
-            "\t${1:*Disable}, --bool",
+            "\t${1:*Disable}  --bool",
             ")${0}"
         ],
         "description": [
@@ -48,7 +48,7 @@
             "ModBase.ExposeKeybinding(",
             "\t${1:*UniqueName}, --string",
             "\t${2:*Key},        --int",
-            "\t${3:*Callback},   --DynValue",
+            "\t${3:*Callback}    --DynValue",
             ")${0}"
         ],
         "description": [
@@ -75,7 +75,7 @@
             "\t${2:*DefaultValue}, --DynValue",
             "\t${3:*Callback},     --DynValue",
             "\t${4:*Min},          --DynValue",
-            "\t${5:*Max},          --DynValue",
+            "\t${5:*Max}           --DynValue",
             ")${0}"
         ],
         "description": [
@@ -103,7 +103,7 @@
             "\t${1:*UniqueName},            --string",
             "\t${2:*DefaultOptions},        --DynValue[]",
             "\t${3:*DefaultSelectedOption}, --int",
-            "\t${4:*Callback},              --DynValue",
+            "\t${4:*Callback}               --DynValue",
             ")${0}"
         ],
         "description": [
@@ -127,7 +127,7 @@
     "ModBase.GetExposedVariable": {
         "body": [
             "ModBase.GetExposedVariable(",
-            "\t${1:*UniqueName}, --string",
+            "\t${1:*UniqueName}  --string",
             ")${0}"
         ],
         "description": [
@@ -243,7 +243,7 @@
     "ModBase.IsGameVersionGreaterThanEqualTo": {
         "body": [
             "ModBase.IsGameVersionGreaterThanEqualTo(",
-            "\t${1:DesiredVersion}, --string",
+            "\t${1:DesiredVersion}  --string",
             ")${0}"
         ],
         "description": [
@@ -302,7 +302,7 @@
     "ModBase.RegisterForInputMouseButtonDown": {
         "body": [
             "ModBase.RegisterForInputMouseButtonDown(",
-            "\t${1:*Callback}, --DynValue",
+            "\t${1:*Callback}  --DynValue",
             ")${0}"
         ],
         "description": [
@@ -323,7 +323,7 @@
     "ModBase.RegisterForInputPress": {
         "body": [
             "ModBase.RegisterForInputPress(",
-            "\t${1:*Callback}, --DynValue",
+            "\t${1:*Callback}  --DynValue",
             ")${0}"
         ],
         "description": [
@@ -345,7 +345,7 @@
         "body": [
             "ModBase.RegisterForItemTypeSpawnedCallback(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:Callback},      --DynValue",
+            "\t${2:Callback}       --DynValue",
             ")${0}"
         ],
         "description": [
@@ -370,7 +370,7 @@
             "\t${1:*Title},        --string = \"\"",
             "\t${2:*Description},  --string = \"\"",
             "\t${3:*Tags},         --string[] = null",
-            "\t${4:*ContentImage}, --string = \"\"",
+            "\t${4:*ContentImage}  --string = \"\"",
             ")${0}"
         ],
         "description": [
@@ -399,7 +399,7 @@
             "\t${3:*NewY},   --int = 0",
             "\t${4:DoOnce},  --bool = false",
             "\t${5:Instant}, --bool = false",
-            "\t${6:ForceBP}, --bool = false",
+            "\t${6:ForceBP}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -431,7 +431,7 @@
             "\t${1:*LiquidItem},  --string",
             "\t${2:FillableItem}, --string = \"ToolBucket\"",
             "\t${3:NewX},         --int = 0",
-            "\t${4:NewY},         --int = 0",
+            "\t${4:NewY}          --int = 0",
             ")${0}"
         ],
         "description": [
@@ -455,7 +455,7 @@
     "ModBase.UnregisterForItemTypeSpawnedCallback": {
         "body": [
             "ModBase.UnregisterForItemTypeSpawnedCallback(",
-            "\t${1:NewTypeString}, --string",
+            "\t${1:NewTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -476,7 +476,7 @@
     "ModBot.DropAllHeldObjects": {
         "body": [
             "ModBot.DropAllHeldObjects(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -497,7 +497,7 @@
     "ModBot.DropAllUpgrades": {
         "body": [
             "ModBot.DropAllUpgrades(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -537,7 +537,7 @@
     "ModBot.GetAllBotUIDsInGroup": {
         "body": [
             "ModBot.GetAllBotUIDsInGroup(",
-            "\t${1:*GroupName}, --string",
+            "\t${1:*GroupName}  --string",
             ")${0}"
         ],
         "description": [
@@ -577,7 +577,7 @@
     "ModBot.GetHeldObjectUIDs": {
         "body": [
             "ModBot.GetHeldObjectUIDs(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -600,7 +600,7 @@
     "ModBot.GetIsLearning": {
         "body": [
             "ModBot.GetIsLearning(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -621,7 +621,7 @@
     "ModBot.GetIsRunningScript": {
         "body": [
             "ModBot.GetIsRunningScript(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -642,7 +642,7 @@
     "ModBot.GetName": {
         "body": [
             "ModBot.GetName(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -663,7 +663,7 @@
     "ModBot.GetParts": {
         "body": [
             "ModBot.GetParts(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -685,7 +685,7 @@
         "body": [
             "ModBot.GetScriptSavegameFormat(",
             "\t${1:UID},       --int",
-            "\t${2:LogErrors}, --bool = false",
+            "\t${2:LogErrors}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -709,7 +709,7 @@
     "ModBot.GetState": {
         "body": [
             "ModBot.GetState(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -732,7 +732,7 @@
             "ModBot.MoveTo(",
             "\t${1:UID}, --int",
             "\t${2:x},   --int",
-            "\t${3:y},   --int",
+            "\t${3:y}    --int",
             ")${0}"
         ],
         "description": [
@@ -755,7 +755,7 @@
     "ModBot.RechargeBot": {
         "body": [
             "ModBot.RechargeBot(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -777,7 +777,7 @@
         "body": [
             "ModBot.SetName(",
             "\t${1:UID},     --int",
-            "\t${2:NewName}, --string",
+            "\t${2:NewName}  --string",
             ")${0}"
         ],
         "description": [
@@ -801,7 +801,7 @@
             "ModBot.SetScriptSavegameFormat(",
             "\t${1:UID},       --int",
             "\t${2:JSON},      --string",
-            "\t${3:LogErrors}, --bool = false",
+            "\t${3:LogErrors}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -828,7 +828,7 @@
     "ModBot.StartScript": {
         "body": [
             "ModBot.StartScript(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -848,7 +848,7 @@
         "body": [
             "ModBot.StopScript(",
             "\t${1:UID},      --int",
-            "\t${2:Graceful}, --bool = false",
+            "\t${2:Graceful}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -870,7 +870,7 @@
             "ModBuilding.AddEnergy(",
             "\t${1:*UID},          --int",
             "\t${2:*EnergyAmount}, --float",
-            "\t${3:SetToMax},      --bool = false",
+            "\t${3:SetToMax}       --bool = false",
             ")${0}"
         ],
         "description": [
@@ -895,7 +895,7 @@
             "ModBuilding.AddFuel(",
             "\t${1:*UID},        --int",
             "\t${2:*FuelAmount}, --float",
-            "\t${3:SetToMax},    --bool = false",
+            "\t${3:SetToMax}     --bool = false",
             ")${0}"
         ],
         "description": [
@@ -920,7 +920,7 @@
             "ModBuilding.AddHay(",
             "\t${1:*UID},       --int",
             "\t${2:*HayAmount}, --float",
-            "\t${3:SetToMax},   --bool = false",
+            "\t${3:SetToMax}    --bool = false",
             ")${0}"
         ],
         "description": [
@@ -945,7 +945,7 @@
             "ModBuilding.AddWater(",
             "\t${1:*UID},         --int",
             "\t${2:*WaterAmount}, --float",
-            "\t${3:SetToMax},     --bool = false",
+            "\t${3:SetToMax}      --bool = false",
             ")${0}"
         ],
         "description": [
@@ -975,7 +975,7 @@
             "\t${5:TL},                      --int[] = null",
             "\t${6:BR},                      --int[] = null",
             "\t${7:Access},                  --int[] = null",
-            "\t${8:UsingCustomModel},        --bool = true",
+            "\t${8:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1010,7 +1010,7 @@
             "\t${2:*PosY},               --int",
             "\t${3:AllowFlooring},       --bool = false",
             "\t${4:AllowWalls},          --bool = false",
-            "\t${5:AllowFootprintTiles}, --bool = false",
+            "\t${5:AllowFootprintTiles}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -1035,7 +1035,7 @@
     "ModBuilding.GetBuildingUIDsByName": {
         "body": [
             "ModBuilding.GetBuildingUIDsByName(",
-            "\t${1:*DesiredName}, --string",
+            "\t${1:*DesiredName}  --string",
             ")${0}"
         ],
         "description": [
@@ -1058,7 +1058,7 @@
     "ModBuilding.GetFuelMaxCapacity": {
         "body": [
             "ModBuilding.GetFuelMaxCapacity(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1079,7 +1079,7 @@
     "ModBuilding.GetRotation": {
         "body": [
             "ModBuilding.GetRotation(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1100,7 +1100,7 @@
     "ModBuilding.IsBuildingActuallyFlooring": {
         "body": [
             "ModBuilding.IsBuildingActuallyFlooring(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1121,7 +1121,7 @@
     "ModBuilding.IsBuildingSaveable": {
         "body": [
             "ModBuilding.IsBuildingSaveable(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1143,7 +1143,7 @@
         "body": [
             "ModBuilding.RegisterForBuildingEditedCallback(",
             "\t${1:*BuildingUID}, --int",
-            "\t${2:Callback},     --DynValue",
+            "\t${2:Callback}      --DynValue",
             ")${0}"
         ],
         "description": [
@@ -1167,7 +1167,7 @@
         "body": [
             "ModBuilding.RegisterForBuildingStateChangedCallback(",
             "\t${1:BuildingUID}, --int",
-            "\t${2:Callback},    --DynValue",
+            "\t${2:Callback}     --DynValue",
             ")${0}"
         ],
         "description": [
@@ -1188,7 +1188,7 @@
         "body": [
             "ModBuilding.RegisterForBuildingTypeSpawnedCallback(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:Callback},      --DynValue",
+            "\t${2:Callback}       --DynValue",
             ")${0}"
         ],
         "description": [
@@ -1214,7 +1214,7 @@
             "\t${2:StartY},    --int",
             "\t${3:EndX},      --int",
             "\t${4:EndY},      --int",
-            "\t${5:*Callback}, --DynValue",
+            "\t${5:*Callback}  --DynValue",
             ")${0}"
         ],
         "description": [
@@ -1240,7 +1240,7 @@
         "body": [
             "ModBuilding.SetBuildingName(",
             "\t${1:*UID},          --int",
-            "\t${2:*BuildingName}, --string",
+            "\t${2:*BuildingName}  --string",
             ")${0}"
         ],
         "description": [
@@ -1263,7 +1263,7 @@
         "body": [
             "ModBuilding.SetBuildingWalkable(",
             "\t${1:*NewTypeString},      --string",
-            "\t${2:*CanBeWalkedThrough}, --bool",
+            "\t${2:*CanBeWalkedThrough}  --bool",
             ")${0}"
         ],
         "description": [
@@ -1286,7 +1286,7 @@
         "body": [
             "ModBuilding.SetRotation(",
             "\t${1:*UID},      --int",
-            "\t${2:*Rotation}, --int",
+            "\t${2:*Rotation}  --int",
             ")${0}"
         ],
         "description": [
@@ -1309,7 +1309,7 @@
         "body": [
             "ModBuilding.ShowBuildingAccessPoint(",
             "\t${1:*NewTypeString},     --string",
-            "\t${2:*EnableAccessPoint}, --bool",
+            "\t${2:*EnableAccessPoint}  --bool",
             ")${0}"
         ],
         "description": [
@@ -1331,7 +1331,7 @@
     "ModBuilding.UnregisterForBuildingEditedCallback": {
         "body": [
             "ModBuilding.UnregisterForBuildingEditedCallback(",
-            "\t${1:*BuildingUID}, --int",
+            "\t${1:*BuildingUID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1355,7 +1355,7 @@
             "\t${1:StartX}, --int",
             "\t${2:StartY}, --int",
             "\t${3:EndX},   --int",
-            "\t${4:EndY},   --int",
+            "\t${4:EndY}    --int",
             ")${0}"
         ],
         "description": [
@@ -1380,7 +1380,7 @@
         "body": [
             "ModConverter.AddFuelToSpecifiedConverter(",
             "\t${1:*UID},  --int",
-            "\t${2:*Fuel}, --float",
+            "\t${2:*Fuel}  --float",
             ")${0}"
         ],
         "description": [
@@ -1403,7 +1403,7 @@
         "body": [
             "ModConverter.AddIngredientToSpecifiedConverter(",
             "\t${1:*UID},              --int",
-            "\t${2:*IngredientString}, --string",
+            "\t${2:*IngredientString}  --string",
             ")${0}"
         ],
         "description": [
@@ -1425,7 +1425,7 @@
     "ModConverter.AreConverterRequrementsMet": {
         "body": [
             "ModConverter.AreConverterRequrementsMet(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1455,7 +1455,7 @@
             "\t${7:BR},                      --int[] = null",
             "\t${8:Access},                  --int[] = null",
             "\t${9:Spawn},                   --int[] = null",
-            "\t${10:UsingCustomModel},        --bool = true",
+            "\t${10:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1488,7 +1488,7 @@
     "ModConverter.GetConverterProperties": {
         "body": [
             "ModConverter.GetConverterProperties(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1511,7 +1511,7 @@
     "ModConverter.GetFuelMaxCapacity": {
         "body": [
             "ModConverter.GetFuelMaxCapacity(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1532,7 +1532,7 @@
     "ModConverter.GetFuelQuantity": {
         "body": [
             "ModConverter.GetFuelQuantity(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -1555,7 +1555,7 @@
             "ModCustom.RegisterForCustomCallback(",
             "\t${1:*UniqueName},   --string",
             "\t${2:*CallbackType}, --string",
-            "\t${3:*Callback},     --DynValue",
+            "\t${3:*Callback}      --DynValue",
             ")${0}"
         ],
         "description": [
@@ -1587,7 +1587,7 @@
             "\t${5:RotZ},        --float = 0f",
             "\t${6:TransX},      --float = 0f",
             "\t${7:TransY},      --float = 0f",
-            "\t${8:TransZ},      --float = 0f",
+            "\t${8:TransZ}       --float = 0f",
             ")${0}"
         ],
         "description": [
@@ -1618,7 +1618,7 @@
             "\t${1:*UniqueName}, --string",
             "\t${2:RotX},        --float = 0f",
             "\t${3:RotY},        --float = 0f",
-            "\t${4:RotZ},        --float = 0f",
+            "\t${4:RotZ}         --float = 0f",
             ")${0}"
         ],
         "description": [
@@ -1643,7 +1643,7 @@
         "body": [
             "ModCustom.UpdateModelScale(",
             "\t${1:*UniqueName}, --string",
-            "\t${2:Scale},       --float = 1f",
+            "\t${2:Scale}        --float = 1f",
             ")${0}"
         ],
         "description": [
@@ -1666,7 +1666,7 @@
             "\t${1:*UniqueName}, --string",
             "\t${2:ScaleX},      --float = 1f",
             "\t${3:ScaleY},      --float = 1f",
-            "\t${4:ScaleZ},      --float = 1f",
+            "\t${4:ScaleZ}       --float = 1f",
             ")${0}"
         ],
         "description": [
@@ -1691,7 +1691,7 @@
             "\t${1:*UniqueName}, --string",
             "\t${2:TransX},      --float = 0f",
             "\t${3:TransY},      --float = 0f",
-            "\t${4:TransZ},      --float = 0f",
+            "\t${4:TransZ}       --float = 0f",
             ")${0}"
         ],
         "description": [
@@ -1761,7 +1761,7 @@
     "ModDebug.Log": {
         "body": [
             "ModDebug.Log(",
-            "\t${1:object[]}, --params",
+            "\t${1:object[]}  --params",
             ")${0}"
         ],
         "description": [
@@ -1790,7 +1790,7 @@
             "\t${2:NewIngredientsStringArr}, --string[]",
             "\t${3:NewIngredientsAmountArr}, --int[]",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1822,7 +1822,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1854,7 +1854,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1886,7 +1886,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1916,7 +1916,7 @@
             "ModGoTo.MoveTo(",
             "\t${1:UID}, --int",
             "\t${2:x},   --int",
-            "\t${3:y},   --int",
+            "\t${3:y}    --int",
             ")${0}"
         ],
         "description": [
@@ -1943,7 +1943,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -1975,7 +1975,7 @@
             "\t${2:NewIngredientsStringArr}, --string[]",
             "\t${3:NewIngredientsAmountArr}, --int[]",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -2007,7 +2007,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -2035,7 +2035,7 @@
     "ModObject.AddMaterialsToCache": {
         "body": [
             "ModObject.AddMaterialsToCache(",
-            "\t${1:FilePath}, --string",
+            "\t${1:FilePath}  --string",
             ")${0}"
         ],
         "description": [
@@ -2057,7 +2057,7 @@
         "body": [
             "ModObject.AddObjectToColonistHouse(",
             "\t${1:*HousingUID}, --int",
-            "\t${2:*ObjectUID},  --int",
+            "\t${2:*ObjectUID}   --int",
             ")${0}"
         ],
         "description": [
@@ -2080,7 +2080,7 @@
         "body": [
             "ModObject.AddObjectToResearchStation(",
             "\t${1:*StationUID}, --int",
-            "\t${2:*ObjectUID},  --int",
+            "\t${2:*ObjectUID}   --int",
             ")${0}"
         ],
         "description": [
@@ -2103,7 +2103,7 @@
         "body": [
             "ModObject.AddObjectToStoneHead(",
             "\t${1:*StoneHeadUID}, --int",
-            "\t${2:*ObjectUID},    --int",
+            "\t${2:*ObjectUID}     --int",
             ")${0}"
         ],
         "description": [
@@ -2125,7 +2125,7 @@
     "ModObject.DestroyObject": {
         "body": [
             "ModObject.DestroyObject(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2146,7 +2146,7 @@
     "ModObject.GetClothingTypesWorn": {
         "body": [
             "ModObject.GetClothingTypesWorn(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2168,7 +2168,7 @@
         "body": [
             "ModObject.GetClothingUIDOnObject(",
             "\t${1:*UID},          --int",
-            "\t${2:*ClothingType}, --string",
+            "\t${2:*ClothingType}  --string",
             ")${0}"
         ],
         "description": [
@@ -2190,7 +2190,7 @@
     "ModObject.GetObjectCategory": {
         "body": [
             "ModObject.GetObjectCategory(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2211,7 +2211,7 @@
     "ModObject.GetObjectDurability": {
         "body": [
             "ModObject.GetObjectDurability(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2232,7 +2232,7 @@
     "ModObject.GetObjectProperties": {
         "body": [
             "ModObject.GetObjectProperties(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2256,7 +2256,7 @@
     "ModObject.GetObjectSubcategory": {
         "body": [
             "ModObject.GetObjectSubcategory(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2277,7 +2277,7 @@
     "ModObject.GetObjectTileCoord": {
         "body": [
             "ModObject.GetObjectTileCoord(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2298,7 +2298,7 @@
     "ModObject.GetObjectType": {
         "body": [
             "ModObject.GetObjectType(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2319,7 +2319,7 @@
     "ModObject.IsValidObjectUID": {
         "body": [
             "ModObject.IsValidObjectUID(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -2341,7 +2341,7 @@
         "body": [
             "ModObject.IsWearingClothing(",
             "\t${1:*UID},          --int",
-            "\t${2:*ClothingType}, --string",
+            "\t${2:*ClothingType}  --string",
             ")${0}"
         ],
         "description": [
@@ -2365,7 +2365,7 @@
             "ModObject.MoveToInstantly(",
             "\t${1:*UID},  --int",
             "\t${2:*NewX}, --int",
-            "\t${3:*NewY}, --int",
+            "\t${3:*NewY}  --int",
             ")${0}"
         ],
         "description": [
@@ -2389,7 +2389,7 @@
         "body": [
             "ModObject.RepairColonistHouseWithObject(",
             "\t${1:*HousingUID}, --int",
-            "\t${2:*ObjectUID},  --int",
+            "\t${2:*ObjectUID}   --int",
             ")${0}"
         ],
         "description": [
@@ -2414,7 +2414,7 @@
             "\t${1:*UID},        --int",
             "\t${2:*NodeName},   --string",
             "\t${3:*NewMatName}, --string",
-            "\t${4:OldMatName},  --string = \"\"",
+            "\t${4:OldMatName}   --string = \"\"",
             ")${0}"
         ],
         "description": [
@@ -2439,7 +2439,7 @@
         "body": [
             "ModObject.SetObjectActive(",
             "\t${1:*UID},    --int",
-            "\t${2:*Active}, --bool",
+            "\t${2:*Active}  --bool",
             ")${0}"
         ],
         "description": [
@@ -2462,7 +2462,7 @@
         "body": [
             "ModObject.SetObjectDurability(",
             "\t${1:*UID},        --int",
-            "\t${2:*Durability}, --int",
+            "\t${2:*Durability}  --int",
             ")${0}"
         ],
         "description": [
@@ -2487,7 +2487,7 @@
             "\t${1:*UID}, --int",
             "\t${2:RotX}, --float = 0f",
             "\t${3:RotY}, --float = 0f",
-            "\t${4:RotZ}, --float = 0f",
+            "\t${4:RotZ}  --float = 0f",
             ")${0}"
         ],
         "description": [
@@ -2512,7 +2512,7 @@
         "body": [
             "ModObject.SetObjectVisibility(",
             "\t${1:*UID},     --int",
-            "\t${2:*Visible}, --bool",
+            "\t${2:*Visible}  --bool",
             ")${0}"
         ],
         "description": [
@@ -2538,7 +2538,7 @@
             "\t${2:*NewX},  --int",
             "\t${3:*NewY},  --int",
             "\t${4:Speed},  --float = 10f",
-            "\t${5:Height}, --float = 0f",
+            "\t${5:Height}  --float = 0f",
             ")${0}"
         ],
         "description": [
@@ -2565,7 +2565,7 @@
             "ModObject.UpdateMoveTo(",
             "\t${1:*UID},   --int",
             "\t${2:Arc},    --bool = false",
-            "\t${3:Wobble}, --bool = false",
+            "\t${3:Wobble}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -2741,7 +2741,7 @@
         "body": [
             "ModPlayer.MoveTo(",
             "\t${1:x}, --int",
-            "\t${2:y}, --int",
+            "\t${2:y}  --int",
             ")${0}"
         ],
         "description": [
@@ -2764,7 +2764,7 @@
         "body": [
             "ModPlayer.SetStartLocation(",
             "\t${1:StartX}, --int",
-            "\t${2:StartY}, --int",
+            "\t${2:StartY}  --int",
             ")${0}"
         ],
         "description": [
@@ -2788,7 +2788,7 @@
     "ModQuest.IsObjectTypeUnlocked": {
         "body": [
             "ModQuest.IsObjectTypeUnlocked(",
-            "\t${1:*ObjectTypeString}, --string",
+            "\t${1:*ObjectTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -2829,7 +2829,7 @@
         "body": [
             "ModQuest.SetQuestComplete(",
             "\t${1:*QuestID},   --string",
-            "\t${2:DoCeremony}, --bool = false",
+            "\t${2:DoCeremony}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -2852,7 +2852,7 @@
         "body": [
             "ModSaveData.LoadValue(",
             "\t${1:*Name},    --string",
-            "\t${2:*Default}, --string",
+            "\t${2:*Default}  --string",
             ")${0}"
         ],
         "description": [
@@ -2886,7 +2886,7 @@
             "ModSaveData.LoadValueInGroup(",
             "\t${1:*Group},   --string",
             "\t${2:*Name},    --string",
-            "\t${3:*Default}, --string",
+            "\t${3:*Default}  --string",
             ")${0}"
         ],
         "description": [
@@ -2918,7 +2918,7 @@
         "body": [
             "ModSaveData.SaveValue(",
             "\t${1:*Name},     --string",
-            "\t${2:*Variable}, --string",
+            "\t${2:*Variable}  --string",
             ")${0}"
         ],
         "description": [
@@ -2949,7 +2949,7 @@
             "ModSaveData.SaveValueInGroup(",
             "\t${1:*Group},    --string",
             "\t${2:*Name},     --string",
-            "\t${3:*Variable}, --string",
+            "\t${3:*Variable}  --string",
             ")${0}"
         ],
         "description": [
@@ -2976,7 +2976,7 @@
     "ModSound.AllowDayNightCycleMusic": {
         "body": [
             "ModSound.AllowDayNightCycleMusic(",
-            "\t${1:Allow}, --bool",
+            "\t${1:Allow}  --bool",
             ")${0}"
         ],
         "description": [
@@ -2997,7 +2997,7 @@
     "ModSound.ChangeAboutMusic": {
         "body": [
             "ModSound.ChangeAboutMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3018,7 +3018,7 @@
     "ModSound.ChangeAllGameMusic": {
         "body": [
             "ModSound.ChangeAllGameMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3039,7 +3039,7 @@
     "ModSound.ChangeDayGameMusic": {
         "body": [
             "ModSound.ChangeDayGameMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3060,7 +3060,7 @@
     "ModSound.ChangeLoadingMusic": {
         "body": [
             "ModSound.ChangeLoadingMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3081,7 +3081,7 @@
     "ModSound.ChangeMenuMusic": {
         "body": [
             "ModSound.ChangeMenuMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3102,7 +3102,7 @@
     "ModSound.ChangeMusicVolume": {
         "body": [
             "ModSound.ChangeMusicVolume(",
-            "\t${1:Volume}, --float",
+            "\t${1:Volume}  --float",
             ")${0}"
         ],
         "description": [
@@ -3123,7 +3123,7 @@
     "ModSound.ChangeNightGameMusic": {
         "body": [
             "ModSound.ChangeNightGameMusic(",
-            "\t${1:ReplacementSound}, --string",
+            "\t${1:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3145,7 +3145,7 @@
         "body": [
             "ModSound.ChangePitch(",
             "\t${1:EventName}, --string",
-            "\t${2:Pitch},     --float",
+            "\t${2:Pitch}      --float",
             ")${0}"
         ],
         "description": [
@@ -3168,7 +3168,7 @@
         "body": [
             "ModSound.ChangeSound(",
             "\t${1:EventName},        --string",
-            "\t${2:ReplacementSound}, --string",
+            "\t${2:ReplacementSound}  --string",
             ")${0}"
         ],
         "description": [
@@ -3191,7 +3191,7 @@
         "body": [
             "ModSound.ChangeVolume(",
             "\t${1:EventName}, --string",
-            "\t${2:Volume},    --float",
+            "\t${2:Volume}     --float",
             ")${0}"
         ],
         "description": [
@@ -3216,7 +3216,7 @@
             "\t${1:*AudioFile}, --string",
             "\t${2:*UID},       --int",
             "\t${3:Pitch},      --float = 1.0f",
-            "\t${4:Volume},     --float = 1.0f",
+            "\t${4:Volume}      --float = 1.0f",
             ")${0}"
         ],
         "description": [
@@ -3240,7 +3240,7 @@
     "ModSound.PlayCustomSound": {
         "body": [
             "ModSound.PlayCustomSound(",
-            "\t${1:AudioFile}, --string",
+            "\t${1:AudioFile}  --string",
             ")${0}"
         ],
         "description": [
@@ -3262,7 +3262,7 @@
         "body": [
             "ModStorage.AddToStorage(",
             "\t${1:*StorageUID}, --int",
-            "\t${2:*ObjectUID},  --int",
+            "\t${2:*ObjectUID}   --int",
             ")${0}"
         ],
         "description": [
@@ -3285,7 +3285,7 @@
         "body": [
             "ModStorage.AssignStorageItemType(",
             "\t${1:*StorageUID},    --int",
-            "\t${2:*NewTypeString}, --string",
+            "\t${2:*NewTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -3307,7 +3307,7 @@
     "ModStorage.GetStorageInfo": {
         "body": [
             "ModStorage.GetStorageInfo(",
-            "\t${1:*UID}, --int",
+            "\t${1:*UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -3330,7 +3330,7 @@
     "ModStorage.GetStorageUIDsHoldingObject": {
         "body": [
             "ModStorage.GetStorageUIDsHoldingObject(",
-            "\t${1:*NewTypeString}, --string",
+            "\t${1:*NewTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -3353,7 +3353,7 @@
     "ModStorage.GetStorageUIDsOfStorageType": {
         "body": [
             "ModStorage.GetStorageUIDsOfStorageType(",
-            "\t${1:*NewTypeString}, --string",
+            "\t${1:*NewTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -3376,7 +3376,7 @@
     "ModStorage.IsStorageUIDValid": {
         "body": [
             "ModStorage.IsStorageUIDValid(",
-            "\t${1:UID}, --int",
+            "\t${1:UID}  --int",
             ")${0}"
         ],
         "description": [
@@ -3398,7 +3398,7 @@
         "body": [
             "ModStorage.RegisterForStorageAddedCallback(",
             "\t${1:*StorageUID}, --int",
-            "\t${2:*Callback},   --DynValue",
+            "\t${2:*Callback}    --DynValue",
             ")${0}"
         ],
         "description": [
@@ -3421,7 +3421,7 @@
         "body": [
             "ModStorage.RegisterForStorageItemChangedCallback(",
             "\t${1:*StorageUID}, --int",
-            "\t${2:*Callback},   --DynValue",
+            "\t${2:*Callback}    --DynValue",
             ")${0}"
         ],
         "description": [
@@ -3444,7 +3444,7 @@
         "body": [
             "ModStorage.RegisterForStorageTakenCallback(",
             "\t${1:*StorageUID}, --int",
-            "\t${2:*Callback},   --DynValue",
+            "\t${2:*Callback}    --DynValue",
             ")${0}"
         ],
         "description": [
@@ -3469,7 +3469,7 @@
             "\t${1:*StorageUID}, --int",
             "\t${2:*Amount},     --int",
             "\t${3:*xPos},       --int",
-            "\t${4:*yPos},       --int",
+            "\t${4:*yPos}        --int",
             ")${0}"
         ],
         "description": [
@@ -3494,7 +3494,7 @@
         "body": [
             "ModStorage.SetStorageMaxCapacity(",
             "\t${1:*UID},         --int",
-            "\t${2:*MaxCapacity}, --int",
+            "\t${2:*MaxCapacity}  --int",
             ")${0}"
         ],
         "description": [
@@ -3517,7 +3517,7 @@
         "body": [
             "ModStorage.SetStorageQuantityStored(",
             "\t${1:*UID},            --int",
-            "\t${2:*CurrentStorage}, --int",
+            "\t${2:*CurrentStorage}  --int",
             ")${0}"
         ],
         "description": [
@@ -3541,7 +3541,7 @@
             "ModStorage.SetStorageType(",
             "\t${1:*NewTypeString},  --string",
             "\t${2:*MaxCapacity},    --int",
-            "\t${3:*NewStorageType}, --string",
+            "\t${3:*NewStorageType}  --string",
             ")${0}"
         ],
         "description": [
@@ -3566,7 +3566,7 @@
             "ModStorage.TransferBetweenStorages(",
             "\t${1:*SourceStorageUID},      --int",
             "\t${2:*DestinationStorageUID}, --int",
-            "\t${3:Amount},                 --int",
+            "\t${3:Amount}                  --int",
             ")${0}"
         ],
         "description": [
@@ -3592,7 +3592,7 @@
             "\t${1:*StartX}, --int",
             "\t${2:*StartY}, --int",
             "\t${3:*EndX},   --int",
-            "\t${4:*EndY},   --int",
+            "\t${4:*EndY}    --int",
             ")${0}"
         ],
         "description": [
@@ -3617,7 +3617,7 @@
         "body": [
             "ModTiles.ClearEverythingOnSingleTile(",
             "\t${1:*StartX}, --int",
-            "\t${2:*StartY}, --int",
+            "\t${2:*StartY}  --int",
             ")${0}"
         ],
         "description": [
@@ -3646,7 +3646,7 @@
             "\t${5:*Buildings},       --bool",
             "\t${6:*StaticObjects},   --bool",
             "\t${7:*HoldableObjects}, --bool",
-            "\t${8:*Tiles},           --bool",
+            "\t${8:*Tiles}            --bool",
             ")${0}"
         ],
         "description": [
@@ -3678,7 +3678,7 @@
             "\t${2:*StartX},        --int",
             "\t${3:*StartY},        --int",
             "\t${4:*EndX},          --int",
-            "\t${5:*EndY},          --int",
+            "\t${5:*EndY}           --int",
             ")${0}"
         ],
         "description": [
@@ -3704,7 +3704,7 @@
         "body": [
             "ModTiles.GetHoldableObjectUIDs(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3748,7 +3748,7 @@
         "body": [
             "ModTiles.GetObjectTypeOnTile(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3771,7 +3771,7 @@
         "body": [
             "ModTiles.GetObjectUIDsOnTile(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3794,7 +3794,7 @@
         "body": [
             "ModTiles.GetRandomEmptyTileCoordinatesNear(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3822,7 +3822,7 @@
             "\t${2:*StartY},        --int",
             "\t${3:*EndX},          --int",
             "\t${4:*EndY},          --int",
-            "\t${5:AllowBuildings}, --bool = false",
+            "\t${5:AllowBuildings}  --bool = false",
             ")${0}"
         ],
         "description": [
@@ -3850,7 +3850,7 @@
         "body": [
             "ModTiles.GetSelectableObjectUIDs(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3875,7 +3875,7 @@
         "body": [
             "ModTiles.GetTileType(",
             "\t${1:*x}, --int",
-            "\t${2:*y}, --int",
+            "\t${2:*y}  --int",
             ")${0}"
         ],
         "description": [
@@ -3936,7 +3936,7 @@
         "body": [
             "ModTiles.IsBuildingOnTile(",
             "\t${1:*xPos}, --int",
-            "\t${2:*yPos}, --int",
+            "\t${2:*yPos}  --int",
             ")${0}"
         ],
         "description": [
@@ -3960,7 +3960,7 @@
             "ModTiles.IsSubcategoryOnTile(",
             "\t${1:*xPos},       --int",
             "\t${2:*yPos},       --int",
-            "\t${3:Subcategory}, --string",
+            "\t${3:Subcategory}  --string",
             ")${0}"
         ],
         "description": [
@@ -3985,7 +3985,7 @@
             "ModTiles.RegisterForPlayerOrBotEnterOrExitTile(",
             "\t${1:TileX},     --int",
             "\t${2:TileY},     --int",
-            "\t${3:*Callback}, --DynValue",
+            "\t${3:*Callback}  --DynValue",
             ")${0}"
         ],
         "description": [
@@ -4010,7 +4010,7 @@
             "ModTiles.SetTile(",
             "\t${1:*x},              --int",
             "\t${2:*y},              --int",
-            "\t${3:*TileTypeString}, --string",
+            "\t${3:*TileTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -4034,7 +4034,7 @@
         "body": [
             "ModTiles.UnregisterForPlayerOrBotEnterOrExitTile(",
             "\t${1:TileX}, --int",
-            "\t${2:TileY}, --int",
+            "\t${2:TileY}  --int",
             ")${0}"
         ],
         "description": [
@@ -4056,7 +4056,7 @@
     "ModTimer.DestroyCallback": {
         "body": [
             "ModTimer.DestroyCallback(",
-            "\t${1:TimerID}, --int",
+            "\t${1:TimerID}  --int",
             ")${0}"
         ],
         "description": [
@@ -4098,7 +4098,7 @@
             "ModTimer.SetCallback(",
             "\t${1:*Callback},     --DynValue",
             "\t${2:*Milliseconds}, --int",
-            "\t${3:Repeat},        --bool = false",
+            "\t${3:Repeat}         --bool = false",
             ")${0}"
         ],
         "description": [
@@ -4132,7 +4132,7 @@
             "\t${9:ModelName},                 --string = \"\"",
             "\t${10:UsingCustomModel},          --bool = true",
             "\t${11:CallbackOnComplete},        --DynValue = null",
-            "\t${12:DestroyTarget},             --bool = true",
+            "\t${12:DestroyTarget}              --bool = true",
             ")${0}"
         ],
         "description": [
@@ -4170,7 +4170,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -4202,7 +4202,7 @@
             "\t${2:NewIngredientsStringArr}, --string[] = null",
             "\t${3:NewIngredientsAmountArr}, --int[] = null",
             "\t${4:ModelName},               --string = \"\"",
-            "\t${5:UsingCustomModel},        --bool = true",
+            "\t${5:UsingCustomModel}         --bool = true",
             ")${0}"
         ],
         "description": [
@@ -4231,7 +4231,7 @@
         "body": [
             "ModUI.ShowPopup(",
             "\t${1:*Title},       --string",
-            "\t${2:*Description}, --string",
+            "\t${2:*Description}  --string",
             ")${0}"
         ],
         "description": [
@@ -4256,7 +4256,7 @@
             "\t${1:*Title},          --string",
             "\t${2:*Description},    --string",
             "\t${3:*CallbackOK},     --DynValue",
-            "\t${4:*CallbackCancel}, --DynValue",
+            "\t${4:*CallbackCancel}  --DynValue",
             ")${0}"
         ],
         "description": [
@@ -4282,7 +4282,7 @@
             "ModVariable.AddRecipeToConverter(",
             "\t${1:*NewConverterString},    --string",
             "\t${2:*NewObjectResultString}, --string",
-            "\t${3:ResultAmount},           --int = 1",
+            "\t${3:ResultAmount}            --int = 1",
             ")${0}"
         ],
         "description": [
@@ -4305,7 +4305,7 @@
     "ModVariable.GetVariableAsFloat": {
         "body": [
             "ModVariable.GetVariableAsFloat(",
-            "\t${1:Name}, --string",
+            "\t${1:Name}  --string",
             ")${0}"
         ],
         "description": [
@@ -4324,7 +4324,7 @@
     "ModVariable.GetVariableAsInt": {
         "body": [
             "ModVariable.GetVariableAsInt(",
-            "\t${1:Name}, --string",
+            "\t${1:Name}  --string",
             ")${0}"
         ],
         "description": [
@@ -4343,7 +4343,7 @@
     "ModVariable.GetVariableAsString": {
         "body": [
             "ModVariable.GetVariableAsString(",
-            "\t${1:Name}, --string",
+            "\t${1:Name}  --string",
             ")${0}"
         ],
         "description": [
@@ -4364,7 +4364,7 @@
             "ModVariable.GetVariableFarmerActionAsInt(",
             "\t${1:ActionString},     --string",
             "\t${2:TargetTypeString}, --string",
-            "\t${3:ToolTypeString},   --string",
+            "\t${3:ToolTypeString}    --string",
             ")${0}"
         ],
         "description": [
@@ -4389,7 +4389,7 @@
             "ModVariable.GetVariableFarmerActionOnTilesAsInt(",
             "\t${1:ActionString},   --string",
             "\t${2:TileTypeString}, --string",
-            "\t${3:ToolTypeString}, --string",
+            "\t${3:ToolTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -4414,7 +4414,7 @@
             "ModVariable.GetVariableFarmerActionOnTilesAsName(",
             "\t${1:ActionString},   --string",
             "\t${2:TileTypeString}, --string",
-            "\t${3:ToolTypeString}, --string",
+            "\t${3:ToolTypeString}  --string",
             ")${0}"
         ],
         "description": [
@@ -4438,7 +4438,7 @@
         "body": [
             "ModVariable.GetVariableForObjectAsFloat(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:VariableName},  --string",
+            "\t${2:VariableName}   --string",
             ")${0}"
         ],
         "description": [
@@ -4461,7 +4461,7 @@
         "body": [
             "ModVariable.GetVariableForObjectAsInt(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:VariableName},  --string",
+            "\t${2:VariableName}   --string",
             ")${0}"
         ],
         "description": [
@@ -4484,7 +4484,7 @@
         "body": [
             "ModVariable.GetVariableForObjectAsString(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:VariableName},  --string",
+            "\t${2:VariableName}   --string",
             ")${0}"
         ],
         "description": [
@@ -4507,7 +4507,7 @@
         "body": [
             "ModVariable.RemoveRecipeFromConverter(",
             "\t${1:*NewConverterString},    --string",
-            "\t${2:*NewObjectResultString}, --string",
+            "\t${2:*NewObjectResultString}  --string",
             ")${0}"
         ],
         "description": [
@@ -4532,7 +4532,7 @@
             "\t${1:NewObjectResultString},   --string",
             "\t${2:NewIngredientsStringArr}, --string[]",
             "\t${3:NewIngredientsAmountArr}, --int[]",
-            "\t${4:ResultAmount},            --int",
+            "\t${4:ResultAmount}             --int",
             ")${0}"
         ],
         "description": [
@@ -4560,7 +4560,7 @@
             "\t${2:*NewObjectResultString},   --string",
             "\t${3:*NewIngredientsStringArr}, --string[] = null",
             "\t${4:*NewIngredientsAmountArr}, --int[] = null",
-            "\t${5:ResultAmount},             --int = 1",
+            "\t${5:ResultAmount}              --int = 1",
             ")${0}"
         ],
         "description": [
@@ -4591,7 +4591,7 @@
             "\t${4:*NewIngredientsStringArr}, --string[]",
             "\t${5:*NewIngredientsAmountArr}, --int[]",
             "\t${6:ResultAmount1},            --int = 1",
-            "\t${7:ResultAmount2},            --int = 1",
+            "\t${7:ResultAmount2}             --int = 1",
             ")${0}"
         ],
         "description": [
@@ -4619,7 +4619,7 @@
         "body": [
             "ModVariable.SetVariable(",
             "\t${1:Name},   --string",
-            "\t${2:String}, --string",
+            "\t${2:String}  --string",
             ")${0}"
         ],
         "description": [
@@ -4642,7 +4642,7 @@
             "\t${1:ActionString},     --string",
             "\t${2:TargetTypeString}, --string",
             "\t${3:ToolTypeString},   --string",
-            "\t${4:Int},              --int",
+            "\t${4:Int}               --int",
             ")${0}"
         ],
         "description": [
@@ -4667,7 +4667,7 @@
             "\t${1:ActionString},   --string",
             "\t${2:TileTypeString}, --string",
             "\t${3:ToolTypeString}, --string",
-            "\t${4:Int},            --int",
+            "\t${4:Int}             --int",
             ")${0}"
         ],
         "description": [
@@ -4692,7 +4692,7 @@
         "body": [
             "ModVariable.SetVariableForBuildingUpgrade(",
             "\t${1:ObjectTypeFromString}, --string",
-            "\t${2:ObjectTypeToString},   --string",
+            "\t${2:ObjectTypeToString}    --string",
             ")${0}"
         ],
         "description": [
@@ -4716,7 +4716,7 @@
             "ModVariable.SetVariableForObjectAsFloat(",
             "\t${1:NewTypeString}, --string",
             "\t${2:VariableName},  --string",
-            "\t${3:Float},         --float",
+            "\t${3:Float}          --float",
             ")${0}"
         ],
         "description": [
@@ -4741,7 +4741,7 @@
             "ModVariable.SetVariableForObjectAsInt(",
             "\t${1:NewTypeString}, --string",
             "\t${2:VariableName},  --string",
-            "\t${3:Int},           --int",
+            "\t${3:Int}            --int",
             ")${0}"
         ],
         "description": [
@@ -4766,7 +4766,7 @@
             "ModVariable.SetVariableForObjectAsIntFromString(",
             "\t${1:NewTypeString}, --string",
             "\t${2:VariableName},  --string",
-            "\t${3:StringInt},     --string",
+            "\t${3:StringInt}      --string",
             ")${0}"
         ],
         "description": [
@@ -4791,7 +4791,7 @@
             "ModVariable.SetVariableForObjectAsString(",
             "\t${1:NewTypeString}, --string",
             "\t${2:VariableName},  --string",
-            "\t${3:String},        --string",
+            "\t${3:String}         --string",
             ")${0}"
         ],
         "description": [
@@ -4815,7 +4815,7 @@
         "body": [
             "ModVariable.SetVariableForStorageAmount(",
             "\t${1:NewTypeString}, --string",
-            "\t${2:Int},           --int",
+            "\t${2:Int}            --int",
             ")${0}"
         ],
         "description": [

@@ -46,7 +46,18 @@ ModTool.CreateTool(
 <li>Parameters starting with * indicate mandatory values
 </ul>
 
+<b>Code for generating the snippets.json file:<\b>
+The snippets.json file is generated from the c# files from the game.
+I do not host the c# files anywhere, as they are the property of Denki Games.
+The program for generating the snippets.json file is available on repl.it at [autonautsVSCodeSnippitGenerator](https://replit.com/@ball-o-twine/autonautsVSCodeSnippitGenerator#main.py). The code is not pretty, and is sparsely commented.
+The intermediate json files (which are just json versions of [the Autonauts Modding API docs](http://www.denki.co.uk/autonauts/modding/index.html)) are available there, and the snippets.json file is generated from those.
+When updates to the modding API are made, the c# files will need to be TEMPORARILY put into the "API" folder and the program re-run.
+Some fixes where made to the various c# files before processing (classes with no public API methods, typos, etc). I have 'corrected' copies of these locally, but a bit of trial-and-error would work out for anyone else.
+  
 ## <b>Release Notes:</b>
+
+### 0.0.4
+Fixed trailing-comma issue after last param in snippet functions
 
 ### 0.0.3
 Fixed repo url
